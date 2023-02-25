@@ -3,8 +3,8 @@ const lexv2 = new AWS.LexRuntimeV2({ region: 'ap-northeast-1' , apiVersion: '202
 
 exports.handler = async (event) => {
   const inputText = event.inputText;
-  const botId = 'RU5FRWHHTL';
-  const botAliasId = 'TSTALIASID';
+  const botId = 'removed';
+  const botAliasId = 'removed';
   
   const params = {
     botAliasId: botAliasId,

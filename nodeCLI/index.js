@@ -1,6 +1,6 @@
 const readline = require('readline');
 const AWS = require('aws-sdk');
-const credentials = new AWS.Credentials('AKIA4TIO7YG5NTRZYU25', 'rFGjaSvo43JvAOdsdPcm7x0VynlMzjs8NQ+hOsSp');
+const credentials = new AWS.Credentials('removed', 'removed');
 const lambda = new AWS.Lambda({ region: 'ap-northeast-1', credentials, apiVersion: '2021-06-10' });
 
 

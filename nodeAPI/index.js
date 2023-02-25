@@ -2,8 +2,8 @@ const AWS = require('aws-sdk');
 const express = require('express');
 const app = express();
 AWS.config.update({
-  accessKeyId: 'AKIA4TIO7YG5NTRZYU25',
-  secretAccessKey: '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',
+  accessKeyId: 'removed',
+  secretAccessKey: 'removed',
   region: 'ap-northeast-1'
 });
 const lambda = new AWS.Lambda();
